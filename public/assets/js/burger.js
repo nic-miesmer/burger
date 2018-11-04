@@ -3,6 +3,9 @@ $(function() {
     $(".change-sleep").on("click", function(event) {
       var id = $(this).data("id");
       var newDevoured = $(this).data("newdevoured");
+
+      console.log("id: ", id);
+      console.log("newDevoured: ", newDevoured);
   
       var newDevouredState = {
         devoured: newDevoured
